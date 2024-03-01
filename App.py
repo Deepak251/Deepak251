@@ -13,6 +13,8 @@ def guess():
     attempts = 0
     message = ''
 
+
+
     while True:
         guess = int(request.form['guess'])
         attempts += 1
